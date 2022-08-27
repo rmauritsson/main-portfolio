@@ -1,6 +1,5 @@
 import Head from "next/head";
 import Image from "next/image";
-import styles from "../styles/Home.module.css";
 
 export default function Home() {
   return (
@@ -14,7 +13,8 @@ export default function Home() {
       <main className="min-h-[100vh] flex flex-col justify-center items-center">
         <h1>Welcome to my Portfolio - LRK</h1>
 
-        <p>Talks about</p>
+        <p className="font-outfit font-bold">outfit</p>
+        <p className="font-aboreto font-bold">outfit</p>
         <ul>
           <li>Home</li>
           <li>Projects</li>
@@ -23,19 +23,6 @@ export default function Home() {
           <li>Let's Talk (Modal form)</li>
         </ul>
       </main>
-
-      <footer>
-        <a
-          href="https://vercel.com?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Powered by{" "}
-          <span className={styles.logo}>
-            <Image src="/vercel.svg" alt="Vercel Logo" width={72} height={16} />
-          </span>
-        </a>
-      </footer>
     </div>
   );
 }

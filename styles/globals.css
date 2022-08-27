@@ -1,3 +1,45 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer base {
+    @font-face {
+        font-family: 'Outfit';
+        src: url('/assets/fonts/Outfit-Bold.woff2') format('woff2');
+        font-weight: 700;
+        font-display: swap;
+        font-style: bold
+    }
+
+    @font-face {
+        font-family: 'Outfit';
+        src: url('/assets/fonts/Outfit-SemiBold.woff2') format('woff2');
+        font-weight: 600;
+        font-display: swap;
+        font-style: semibold
+    }
+
+    @font-face {
+        font-family: 'Outfit';
+        src: url('/assets/fonts/Outfit-Medium.woff2') format('woff2');
+        font-weight: 500;
+        font-display: swap;
+        font-style: medium
+    }
+
+    @font-face {
+        font-family: 'Outfit';
+        src: url('/assets/fonts/Outfit-Regular.woff2') format('woff2');
+        font-weight: 400;
+        font-display: swap;
+        font-style: normal
+    }
+
+    @font-face {
+        font-family: 'Aboreto';
+        src: url('/assets/fonts/Aboreto-Regular.woff2') format('woff2');
+        font-weight: 400;
+        font-display: swap;
+        font-style: normal
+    }
+}
