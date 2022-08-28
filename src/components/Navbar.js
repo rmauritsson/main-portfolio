@@ -17,7 +17,7 @@ const Navbar = () => {
           <Link href="/about">Work</Link>
           <Link href="/about">Career</Link>
           <Link href="/about">Community</Link>
-          <button className="bg-white text-black py-2 px-4 rounded-lg">
+          <button className="text-white  bg-gradient-to-r from-purple-400 to-pink-600 py-2 px-4 rounded-lg">
             Let's talk
           </button>
         </div>

@@ -17,7 +17,7 @@ export default function Home() {
         <div className="container mx-auto px-4">
           <div className="w-full px-4 mx-auto flex items-center justify-center flex-col md:flex-row h-screen">
             <div className="w-full md:w-[50%] pt-[40px] flex flex-col items-left text-center md:text-left justify-center">
-              <h1 className="md:w-[90%] text-[68px] md:text-[52px] font-bold leading-[4rem] mb-[28px]">
+              <h1 className="md:w-[90%] text-[68px] md:text-[52px] font-bold leading-[4rem] mb-[28px] text-transparent bg-clip-text bg-gradient-to-r from-purple-400 to-pink-600">
                 Frontend & No Code Developer
               </h1>
               <p className="text-[20px] md:w-[80%]">
@@ -26,7 +26,7 @@ export default function Home() {
               </p>
 
               <div className="w-full md:w-[60%] py-[60px]">
-                <button className="bg-white text-black py-4 px-6 rounded-lg uppercase">
+                <button className="text-white  bg-gradient-to-r from-purple-400 to-pink-600 py-4 px-6 rounded-lg uppercase">
                   Check out my work
                 </button>
               </div>
