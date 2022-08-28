@@ -18,6 +18,10 @@
     "eslint": "8.23.0",
     "eslint-config-next": "12.2.5",
     "postcss": "^8.4.16",
-    "tailwindcss": "^3.1.8"
+    "react-icons": "^4.4.0",
+    "react-tsparticles": "^2.2.4",
+    "tailwindcss": "^3.1.8",
+    "tsparticles": "^2.2.4",
+    "tsparticles-slim": "^2.2.4"
   }
 }
