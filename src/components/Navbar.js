@@ -13,10 +13,10 @@ const Navbar = () => {
 
         <div className="hidden md:block space-x-4 text-[17px]">
           <Link href="/">Home</Link>
-          <Link href="/about">About Leo</Link>
-          <Link href="/about">Work</Link>
-          <Link href="/about">Career</Link>
-          <Link href="/about">Community</Link>
+          <Link href="/coming-soon">About Leo</Link>
+          <Link href="/coming-soon">Work</Link>
+          <Link href="/coming-soon">Career</Link>
+          <Link href="/coming-soon">Community</Link>
           <button className="text-white  bg-gradient-to-r from-purple-400 to-pink-600 py-2 px-4 rounded-lg">
             Let's talk
           </button>
