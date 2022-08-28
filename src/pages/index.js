@@ -23,7 +23,7 @@ export default function Home() {
           <LandingComponent />
         </div>
         <footer className="container mx-auto px-4 border-t-2 border-gray-600 opacity-50 text-[14px] font-aboreto flex items-center justify-center h-[60px] uppercase">
-          © 2022 Leonard Rwai Kanyesigye
+          ALL RIGHTS RESEREVED 2022 | Leonard Rwai Kanyesigye
         </footer>
       </main>
     </div>

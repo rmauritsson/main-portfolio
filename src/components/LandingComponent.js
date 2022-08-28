@@ -25,6 +25,7 @@ const LandingComponent = () => {
           width={400}
           height={400}
           className="rounded-lg"
+          alt="Profile Image"
         />
       </div>
     </div>
