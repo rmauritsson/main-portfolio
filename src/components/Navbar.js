@@ -18,7 +18,7 @@ const Navbar = () => {
           <Link href="/coming-soon">Career</Link>
           <Link href="/coming-soon">Community</Link>
           <button className="text-white  bg-gradient-to-r from-purple-400 to-pink-600 py-2 px-4 rounded-lg">
-            Let's talk
+            Let\'s talk
           </button>
         </div>
       </div>
